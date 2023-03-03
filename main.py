@@ -39,3 +39,5 @@ with TrayApp(name='Test',  # the little tooltip, seen when hovering over the ico
     with app.add_radiobuttongroup() as rbg:  # used with a contextmanager as well
         rbg.add(text='hello')
         rbg.add(text='world', selected=True)  # selected determines the item which is selected on creation
+
+print(1)
